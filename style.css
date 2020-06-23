@@ -1,8 +1,42 @@
 .logo {
   font-family: "Nunito Sans", sans-serif;
-  font-size: 4em;
+  font-size: 5em;
+  display: flex;
+  justify-content: center;
 }
 
 .journal {
   font-family: "Indie Flower", cursive;
+}
+
+/*I found a lot of help for my navbar at csswizardry*/
+nav {
+  font-family: "Nunito Sans", sans-serif;
+  border: 1px solid #020402;
+  border-width: 1px 0;
+  list-style: none;
+  padding: 2em 1em;
+  text-align: center;
+}
+
+nav li {
+  display: inline;
+}
+
+.nav {
+  color: #ffb81c;
+  background: #020402;
+  padding: 0.5em;
+  margin: 0.5em;
+  border: #ffb81c solid 2px;
+  letter-spacing: 0.15rem;
+  transition: all 0.35s;
+}
+
+.nav:hover {
+  color: #020402;
+  background: #ffb81c;
+  border: #020402 solid 2px;
+  letter-spacing: 0.25em;
+  margin: 0 2.5em;
 }
